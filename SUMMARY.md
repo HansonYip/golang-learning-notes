@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [说明](README.md)
 
 ## 数据类型
 
