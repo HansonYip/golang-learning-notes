@@ -14,6 +14,12 @@
 * [字符串](ji-chu-shu-ju-lei-xing/zi-fu-chuan.md)
 * [类型转换](ji-chu-shu-ju-lei-xing/lei-xing-zhuan-huan.md)
 
+## 复合数据类型
+
+* [数组](fu-he-shu-ju-lei-xing/shu-zu.md)
+* [Slice](fu-he-shu-ju-lei-xing/slice.md)
+* [Map](fu-he-shu-ju-lei-xing/map.md)
+
 ## 程序结构
 
 * [命名](cheng-xu-jie-gou/ming-ming.md)
