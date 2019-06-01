@@ -68,6 +68,15 @@ f = 1e123              // untyped floating-point -> float64
 f = 'a'                // untyped rune -> float64
 ```
 
+当没有显式声明变量类型时， 无类型变量隐式转为默认的变量类型。
+
+```go
+i := 0      // untyped integer;        implicit int(0)
+r := '\000' // untyped rune;           implicit rune('\000')
+f := 0.0    // untyped floating-point; implicit float64(0.0)
+c := 0i     // untyped complex;        implicit complex128(0i)
+```
+
 ## **枚举（iota）**
 
 关键字 iota 定义常量组中从 0 开始按行计数的自增枚举值。
