@@ -108,7 +108,9 @@ switch 变量 {
 
 当`switch`中省略被判断的变量时，则默认为判断`case`分支是否为`true`。
 
-## **break 与 continue**
+## **break、continue 与 goto**
 
 Go语言中，`break`和`continue`的用法与Java基本一致，`break`用于`for`循环、`switch`和`select`中，作用是结束循环或当前整个代码块，而`continue`只能用于`for`循环，作用是忽略剩余的循环体而直接进入下一次循环的过程。
+
+TODO：goto
 
